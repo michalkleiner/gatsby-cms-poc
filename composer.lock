@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f752f3af7a525aa7ba648f9af7ede425",
+    "content-hash": "99864153bc4ea5bb36a66a8ecc9d5432",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -2200,6 +2200,42 @@
             "time": "2019-08-13 04:27:14"
         },
         {
+            "name": "stevie-mayhew/silverstripe-gatsby",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:/stevie-mayhew/silverstripe-gatsby",
+                "reference": "645c4970c343ef25000c17173841a3e74599f1fe"
+            },
+            "require": {
+                "silverstripe/cms": "^4.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "autoload": {
+                "psr-4": {
+                    "StevieMayhew\\Gatsby\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stevie Mayhew",
+                    "homepage": "https://www.stevie.co.nz"
+                },
+                {
+                    "name": "Uncle Cheese"
+                }
+            ],
+            "description": "SilverStripe Gatsby base",
+            "keywords": [
+                "gatsby",
+                "silverstripe"
+            ],
+            "time": "2019-08-23 23:41:36"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.12",
             "source": {
@@ -4107,7 +4143,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silverstripe/recipe-cms": 20
+        "silverstripe/recipe-cms": 20,
+        "stevie-mayhew/silverstripe-gatsby": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
